@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource(value={"file:conf/application.porperties"})
+@PropertySource(value={"classpath:conf/application.porperties"})
 public class App 
 {
     public static void main( String[] args ) {
